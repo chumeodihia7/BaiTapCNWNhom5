@@ -1,0 +1,67 @@
+.yc{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.p{
+    font-style: italic;
+    color: yellow;
+}
+.img{
+    width: 30%;
+    height: 300px;
+    border-radius: 15px;
+    
+}
+.ah{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+a:hover{
+    font-style: italic;
+    color: green;
+    background-color: black;
+}
+.list li{
+   list-style-type: none;
+}
+.sukien{
+    font-size: 30px;
+}
+ul li{
+    display: inline-block;
+    margin: 0px;
+}
+/* Thiết lập kiểu cho biểu mẫu và phần tử nhập liệu */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Thiết lập kiểu cho nút gửi */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
